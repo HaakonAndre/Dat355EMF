@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=org.eclipse.example.bowling.tutorial/\/home\/harn\/.p2\/pool\/plugins\/org.eclipse.e4.ui.workbench3_0.15.500.v20201021-1339.jar&amp;lt;org.eclipse.ui.testing.dumps(AwtScreenshot.class[AwtScreenshot&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=org.eclipse.example.bowling.tutorial/\/home\/harn\/.p2\/pool\/plugins\/org.eclipse.emf.ecore.change_2.14.0.v20190528-0725.jar&amp;lt;org.eclipse.emf.ecore.change(ChangePlugin.class[ChangePlugin&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="26"/>
+			<item key="DIALOG_Y_ORIGIN" value="23"/>
+			<item key="DIALOG_FONT_NAME" value="1|Cantarell|11.0|0|GTK|1|"/>
+		</section>
+	</section>
+</section>

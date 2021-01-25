@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.eclipse.emf.edit.domain.AdapterFactoryEditingDomain"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.common.command.BasicCommandStack"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.edit.domain.EditingDomain"/>
+    <fullyQualifiedTypeName name="bowling.Tournament"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.EObject"/>
+    <fullyQualifiedTypeName name="bowling.BowlingPackage"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.common.command.Command"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.edit.command.AddCommand"/>
+    <fullyQualifiedTypeName name="bowling.Matchup"/>
+    <fullyQualifiedTypeName name="bowling.BowlingFactory"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.resource.Resource"/>
+</qualifiedTypeNameHistroy>
