@@ -1,0 +1,104 @@
+!SESSION 2021-02-01 17:23:09.601 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.9.1
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -dev file:/home/harn/eclipse-workspace/Dat355EMF/Bowling/.metadata/.plugins/org.eclipse.pde.core/MakeItHappen Sample RAP Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog -console -data /home/harn/eclipse-workspace/Dat355EMF/Bowling/.metadata/.plugins/org.eclipse.rap.tools.launch/MakeItHappenSampleRAPApplication
+
+!ENTRY org.eclipse.emf.ecp.makeithappen.model.viewmodel 4 0 2021-02-01 17:23:10.696
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.ecp.makeithappen.model.viewmodel [1]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.ecp.view.model.provider.xmi; bundle-version="[1.25.0,1.25.1)"
+    -> Bundle-SymbolicName: org.eclipse.emf.ecp.view.model.provider.xmi; bundle-version="1.25.0.20200916-0800"; singleton:="true"
+       org.eclipse.emf.ecp.view.model.provider.xmi [137]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.ecp.view.migrator; bundle-version="[1.25.0,1.25.1)"
+           -> Bundle-SymbolicName: org.eclipse.emf.ecp.view.migrator; bundle-version="1.25.0.20200916-0800"; singleton:="true"
+              org.eclipse.emf.ecp.view.migrator [116]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.10.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.example.bowlingmodel.viewmodel 4 0 2021-02-01 17:23:11.138
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.example.bowlingmodel.viewmodel [3]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.ecp.view.model.provider.xmi
+    -> Bundle-SymbolicName: org.eclipse.emf.ecp.view.model.provider.xmi; bundle-version="1.25.0.20200916-0800"; singleton:="true"
+       org.eclipse.emf.ecp.view.model.provider.xmi [137]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.ecp.view.migrator; bundle-version="[1.25.0,1.25.1)"
+           -> Bundle-SymbolicName: org.eclipse.emf.ecp.view.migrator; bundle-version="1.25.0.20200916-0800"; singleton:="true"
+              org.eclipse.emf.ecp.view.migrator [116]
+                Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.10.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecp.view.migrator 4 0 2021-02-01 17:23:12.483
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.ecp.view.migrator [116]
+  Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.10.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecp.view.model.provider.xmi 4 0 2021-02-01 17:23:12.507
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.ecp.view.model.provider.xmi [137]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.ecp.view.migrator; bundle-version="[1.25.0,1.25.1)"
+    -> Bundle-SymbolicName: org.eclipse.emf.ecp.view.migrator; bundle-version="1.25.0.20200916-0800"; singleton:="true"
+       org.eclipse.emf.ecp.view.migrator [116]
+         Unresolved requirement: Require-Bundle: org.eclipse.core.resources; bundle-version="[3.10.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1845)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1838)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1743)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1665)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.osgi 4 0 2021-02-01 17:23:12.509
+!MESSAGE Bundle initial@reference:file:../../../../org.eclipse.emf.ecp.makeithappen.model.viewmodel/ was not resolved.
+
+!ENTRY org.eclipse.osgi 4 0 2021-02-01 17:23:12.509
+!MESSAGE Bundle initial@reference:file:../../../../org.eclipse.example.bowlingmodel.viewmodel/ was not resolved.
+
+!ENTRY org.eclipse.osgi 4 0 2021-02-01 17:23:12.510
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.emf.ecp.view.migrator_1.25.0.20200916-0800.jar was not resolved.
+
+!ENTRY org.eclipse.osgi 4 0 2021-02-01 17:23:12.510
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.emf.ecp.view.model.provider.xmi_1.25.0.20200916-0800.jar was not resolved.
+
+!ENTRY org.eclipse.emf.ecp.view.model 2 0 2021-02-01 17:23:15.053
+!MESSAGE The registered resource at location "/org.eclipse.emf.ecp.ui.view.swt/templates/details.template" did not contain a valid VTViewTemplate.

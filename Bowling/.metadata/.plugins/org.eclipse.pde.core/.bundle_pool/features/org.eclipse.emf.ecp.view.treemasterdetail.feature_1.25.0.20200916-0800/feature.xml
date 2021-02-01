@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.view.treemasterdetail.feature"
+      label="EMF Forms Master-Detail Model"
+      version="1.25.0.20200916-0800"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.ecp.view.treemasterdetail.model"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.treemasterdetail.model"
+         download-size="30"
+         install-size="51"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.treemasterdetail.model.edit"
+         download-size="23"
+         install-size="37"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.treemasterdetail.ui.swt"
+         download-size="61"
+         install-size="131"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.swt.treemasterdetail"
+         download-size="113"
+         install-size="235"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.swt.treemasterdetail.decorator.validation.default"
+         download-size="16"
+         install-size="23"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+</feature>

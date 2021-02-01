@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.viewmodel.feature"
+      label="EMF Forms Core Model"
+      version="1.25.0.20200916-0800"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.view.model"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model"
+         download-size="127"
+         install-size="351"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.edit"
+         download-size="60"
+         install-size="113"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.view"
+         download-size="37"
+         install-size="69"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.view.swt"
+         download-size="121"
+         install-size="262"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.provider.generator"
+         download-size="19"
+         install-size="33"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.provider.xmi"
+         download-size="41"
+         install-size="81"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.context"
+         download-size="42"
+         install-size="89"
+         version="1.25.0.20200916-0800"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.core.swt"
+         download-size="178"
+         install-size="414"
+         version="1.25.0.20200916-0800"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.edit"
+         download-size="41"
+         install-size="83"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.edit.swt"
+         download-size="263"
+         install-size="563"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.context.locale"
+         download-size="10"
+         install-size="13"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.swt.layout"
+         download-size="13"
+         install-size="18"
+         version="1.25.0.20200916-0800"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.common"
+         download-size="35"
+         install-size="64"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.util.swt"
+         download-size="12"
+         install-size="15"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.control.multireference"
+         download-size="49"
+         install-size="100"
+         version="1.25.0.20200916-0800"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.common"
+         download-size="31"
+         install-size="59"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.common.ui"
+         download-size="51"
+         install-size="99"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.emfspecificservice"
+         download-size="13"
+         install-size="17"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.localization"
+         download-size="14"
+         install-size="21"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.databinding.featurepath"
+         download-size="14"
+         install-size="24"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.editsupport"
+         download-size="15"
+         install-size="23"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.view.model.localization"
+         download-size="14"
+         install-size="22"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.swt.core"
+         download-size="61"
+         install-size="121"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.swt.core.plugin"
+         download-size="19"
+         install-size="36"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services"
+         download-size="84"
+         install-size="177"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.emf"
+         download-size="36"
+         install-size="78"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.locale.default"
+         download-size="11"
+         install-size="13"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.common"
+         download-size="51"
+         install-size="89"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.swt.core.di"
+         download-size="21"
+         install-size="38"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.swt.core.di.extension"
+         download-size="15"
+         install-size="23"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.view.linewrapper"
+         download-size="11"
+         install-size="14"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.migrator"
+         download-size="23"
+         install-size="35"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.legacy"
+         download-size="17"
+         install-size="30"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.domainexpander.default"
+         download-size="16"
+         install-size="28"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.mappingprovider.default"
+         download-size="12"
+         install-size="17"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.structuralchange"
+         download-size="14"
+         install-size="23"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.structuralchange.default"
+         download-size="12"
+         install-size="16"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.segments"
+         download-size="23"
+         install-size="38"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.core.services.segments.featurepath"
+         download-size="23"
+         install-size="40"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.model.common.di"
+         download-size="32"
+         install-size="54"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+</feature>

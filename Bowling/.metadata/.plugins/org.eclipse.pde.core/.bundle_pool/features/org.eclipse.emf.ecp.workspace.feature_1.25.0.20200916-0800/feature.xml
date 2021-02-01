@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2004 - 2011 Eike Stepper (Berlin, Germany) and others.
+	All rights reserved. This program and the accompanying materials
+	are made available under the terms of the Eclipse Public License 2.0
+	which accompanies this distribution, and is available at
+	https://www.eclipse.org/legal/epl-2.0/
+	
+	SPDX-License-Identifier: EPL-2.0
+
+	Contributors:
+	  Eike Stepper - initial API and implementation
+-->
+<feature
+      id="org.eclipse.emf.ecp.workspace.feature"
+      label="ECP File Integration (Experimental)"
+      version="1.25.0.20200916-0800"
+      provider-name="Eclipse Modeling Project"
+      plugin="org.eclipse.emf.ecp.workspace.core"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      Integration for file and Eclipse workspace persistence.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.workspace.core"
+         download-size="32"
+         install-size="56"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.workspace.ui"
+         download-size="69"
+         install-size="137"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+</feature>

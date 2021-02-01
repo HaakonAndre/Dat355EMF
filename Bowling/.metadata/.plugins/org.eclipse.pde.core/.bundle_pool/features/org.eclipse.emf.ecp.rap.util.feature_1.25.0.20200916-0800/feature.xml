@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.ecp.rap.util.feature"
+      label="ECP RAP UI Integration"
+      version="1.25.0.20200916-0800"
+      provider-name="%providerName"
+      plugin="org.eclipse.emf.ecp.rap.util"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.emf.ecp.rap.util"
+         download-size="10"
+         install-size="13"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.ui.rap"
+         download-size="11"
+         install-size="14"
+         version="1.25.0.20200916-0800"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.rap.edit.ui.minimal"
+         download-size="52"
+         install-size="98"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.label.rap"
+         download-size="11"
+         install-size="15"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.view.util.swt.rap"
+         download-size="12"
+         install-size="16"
+         version="1.25.0.20200916-0800"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.core.rap"
+         download-size="18"
+         install-size="33"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.core.rap.sessionprovider.rwt"
+         download-size="11"
+         install-size="13"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecp.emfstore.core.rap"
+         download-size="12"
+         install-size="18"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emfforms.swt.categorization.expandbar"
+         download-size="26"
+         install-size="55"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.emf.ecp.workspace.ui.rap"
+         download-size="25"
+         install-size="42"
+         version="1.25.0.20200916-0800"
+         unpack="false"/>
+
+</feature>

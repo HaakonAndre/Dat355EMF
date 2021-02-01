@@ -235,10 +235,10 @@ org.eclipse.equinox.security.linux.x86_64,1.1.400.v20200915-1125,file:/home/harn
 org.eclipse.equinox.security.ui,1.2.700.v20200807-1518,file:/home/harn/.p2/pool/plugins/org.eclipse.equinox.security.ui_1.2.700.v20200807-1518.jar,4,false
 org.eclipse.equinox.simpleconfigurator,1.3.600.v20200721-1308,file:/home/harn/.p2/pool/plugins/org.eclipse.equinox.simpleconfigurator_1.3.600.v20200721-1308.jar,1,true
 org.eclipse.equinox.simpleconfigurator.manipulator,2.1.500.v20200211-1505,file:/home/harn/.p2/pool/plugins/org.eclipse.equinox.simpleconfigurator.manipulator_2.1.500.v20200211-1505.jar,4,false
-org.eclipse.example.bowlingmodel,0.1.0.qualifier,file:/home/harn/eclipse-workspace/DAT355EMF/Bowling/org.eclipse.example.bowlingmodel/,4,false
-org.eclipse.example.bowlingmodel.edit,1.0.0.qualifier,file:/home/harn/eclipse-workspace/DAT355EMF/Bowling/org.eclipse.example.bowlingmodel.edit/,4,false
-org.eclipse.example.bowlingmodel.editor,1.0.0.qualifier,file:/home/harn/eclipse-workspace/DAT355EMF/Bowling/org.eclipse.example.bowlingmodel.editor/,4,false
-org.eclipse.example.bowlingmodel.tests,1.0.0.qualifier,file:/home/harn/eclipse-workspace/DAT355EMF/Bowling/org.eclipse.example.bowlingmodel.tests/,4,false
+org.eclipse.example.bowlingmodel,0.1.0.qualifier,file:/home/harn/eclipse-workspace/Bowling/org.eclipse.example.bowlingmodel/,4,false
+org.eclipse.example.bowlingmodel.edit,1.0.0.qualifier,file:/home/harn/eclipse-workspace/Bowling/org.eclipse.example.bowlingmodel.edit/,4,false
+org.eclipse.example.bowlingmodel.editor,1.0.0.qualifier,file:/home/harn/eclipse-workspace/Bowling/org.eclipse.example.bowlingmodel.editor/,4,false
+org.eclipse.example.bowlingmodel.tests,1.0.0.qualifier,file:/home/harn/eclipse-workspace/Bowling/org.eclipse.example.bowlingmodel.tests/,4,false
 org.eclipse.gef,3.11.0.201606061308,file:/home/harn/.p2/pool/plugins/org.eclipse.gef_3.11.0.201606061308.jar,4,false
 org.eclipse.help,3.8.800.v20200525-0755,file:/home/harn/.p2/pool/plugins/org.eclipse.help_3.8.800.v20200525-0755.jar,4,false
 org.eclipse.help.base,4.3.100.v20201202-1800,file:/home/harn/.p2/pool/plugins/org.eclipse.help.base_4.3.100.v20201202-1800.jar,4,false

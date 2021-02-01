@@ -1,0 +1,5 @@
+
+Feb 01, 2021 17:55:12.576 NEW SESSION
+Feb 01, 2021 17:55:12.576 which: no mozilla in (/home/harn/.local/bin:/home/harn/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin)
+Feb 01, 2021 17:55:12.576 which: no netscape in (/home/harn/.local/bin:/home/harn/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin)
+Feb 01, 2021 17:55:12.577 /usr/bin/firefox

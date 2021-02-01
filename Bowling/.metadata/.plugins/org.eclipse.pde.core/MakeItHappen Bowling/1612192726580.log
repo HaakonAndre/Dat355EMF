@@ -1,0 +1,22 @@
+!SESSION 2021-02-01 16:18:46.429 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.9.1
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -dev file:/home/harn/eclipse-workspace/Dat355EMF/Bowling/.metadata/.plugins/org.eclipse.pde.core/MakeItHappen Bowling/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog -console -data /home/harn/eclipse-workspace/Dat355EMF/Bowling/.metadata/.plugins/org.eclipse.rap.tools.launch/MakeItHappenBowling
+
+!ENTRY org.eclipse.osgi 4 0 2021-02-01 16:18:46.961
+!MESSAGE Could not find bundle: org.eclipse.equinox.console
+!STACK 0
+org.osgi.framework.BundleException: Could not find bundle: org.eclipse.equinox.console
+	at org.eclipse.core.runtime.internal.adaptor.ConsoleManager.checkForConsoleBundle(ConsoleManager.java:61)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:351)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)

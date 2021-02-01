@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=/home/harn/eclipse-workspace/Dat355EMF/Bowling/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=11

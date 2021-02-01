@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;org.eclipse.example.bowlingmodel.editor&apos;" deleteContents="true" description="Delete resource &apos;org.eclipse.example.bowlingmodel.editor&apos;" element1="/org.eclipse.example.bowlingmodel.editor" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1612192055241"/>&#x0A;<refactoring comment="Delete resource &apos;Families2Persons/Families2Persons.asm&apos;" deleteContents="false" description="Delete resource &apos;Families2Persons/Families2Persons.asm&apos;" element1="/Families2Persons/Families2Persons.asm" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1612200497701"/>
+</session>
