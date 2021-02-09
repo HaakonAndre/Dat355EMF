@@ -1,0 +1,9 @@
+rule EClass2Table
+	transform t : IN!EClass
+	to n : OUT!Table {
+		
+	n.name = t.name;
+	
+	}
+	
+	

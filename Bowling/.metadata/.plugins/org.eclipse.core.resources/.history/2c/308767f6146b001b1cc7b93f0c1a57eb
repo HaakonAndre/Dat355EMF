@@ -1,0 +1,15 @@
+rule EClass2Table
+	transform t : IN!EClass
+	to n : OUT!Table {
+		
+	n.name = t.name;
+	
+	}
+	
+rule EPackage2Table
+	transform t : IN!EPackage
+	to n : OUT!Schema {
+		
+	
+	}
+	

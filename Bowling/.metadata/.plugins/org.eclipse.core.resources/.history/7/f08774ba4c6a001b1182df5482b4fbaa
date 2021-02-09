@@ -1,0 +1,15 @@
+rule Posts2Post
+
+	transform book : t_posts {
+	
+	template : "post.egl"
+	
+	target : "gen/" + posts.a_shortTitle + "/" + posts.a_shortTitle + ".html"
+	}
+	
+		transform book : t_posts {
+	
+	template : "blog.egl"
+	
+	target : "gen/index.html"
+	}

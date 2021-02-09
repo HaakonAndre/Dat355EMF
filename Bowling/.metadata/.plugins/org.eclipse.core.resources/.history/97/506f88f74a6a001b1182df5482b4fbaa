@@ -1,0 +1,7 @@
+<h1> [%=Blog.author%]  [%=Blog.authorEmail%] </h1>
+
+<ul>
+[%for (post in t_Blog.all) {%]
+	<li><a href="[%=post.a.shortTitle%].html">[%=post.a.shortTitle%]</a>
+[%}%]
+</ul>

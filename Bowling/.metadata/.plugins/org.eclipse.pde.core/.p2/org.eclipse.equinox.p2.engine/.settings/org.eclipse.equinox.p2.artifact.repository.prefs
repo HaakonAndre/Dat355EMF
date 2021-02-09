@@ -44,6 +44,15 @@ repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plu
 repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.bundle_pool/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
 repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.bundle_pool/uri=file\:/home/harn/eclipse-workspace/DAT355EMF/Bowling/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/
 repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.bundle_pool/version=1.0.0
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/description=
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/enabled=true
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/isSystem=true
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/name=download cache
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/provider=
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/suffix=artifacts.xml
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/uri=file\:/home/harn/eclipse-workspace/DAT355EMF/Bowling/.metadata/.plugins/org.eclipse.pde.core/.p2/org.eclipse.equinox.p2.core/cache/
+repositories/file\:_home_harn_eclipse-workspace_DAT355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.p2_org.eclipse.equinox.p2.core_cache/version=1.0.0
 repositories/file\:_home_harn_eclipse-workspace_Dat355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.bundle_pool/description=
 repositories/file\:_home_harn_eclipse-workspace_Dat355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.bundle_pool/isSystem=true
 repositories/file\:_home_harn_eclipse-workspace_Dat355EMF_Bowling_.metadata_.plugins_org.eclipse.pde.core_.bundle_pool/name=Bundle pool
