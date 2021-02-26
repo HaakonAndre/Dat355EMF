@@ -1,7 +1,0 @@
-rule EClass2Table
-	transform t : In!ClassFile
-	to n : Table!Table {
-	
-	n.name = t.name;
-	}
-	

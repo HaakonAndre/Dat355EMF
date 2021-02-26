@@ -1,0 +1,22 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
+
+History: actionlist += CharacterAction*;
+
+CharacterAction: 'Character' name=ID actions += Actions+;
+
+Actions: Rest | Spell | Attack | Move;
+
+Rest: LongRest | ShortRest;
+
+LongRest: 'LongRest' level = INT;
+
+ShortRest: 'ShortRest' healing = INT;
+
+Spell: 'Spell' name = ID level = INT;
+
+Attack: 'Attack' damage = INT ;
+
+Move: 'Move' distance = INT;
+	

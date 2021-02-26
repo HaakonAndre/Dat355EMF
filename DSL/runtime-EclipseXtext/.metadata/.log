@@ -1,0 +1,16 @@
+!SESSION 2021-02-26 21:18:08.513 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=11.0.9.1
+java.vendor=Red Hat, Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /home/harn/eclipse-workspace/DSL/../runtime-EclipseXtext -dev file:/home/harn/eclipse-workspace/DSL/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.navigator 4 0 2021-02-26 21:20:04.387
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Dnd". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2021-02-26 21:27:54.635
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Dnd/DndModels". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2021-02-26 21:28:26.381
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "F/Dnd/DndModels". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.

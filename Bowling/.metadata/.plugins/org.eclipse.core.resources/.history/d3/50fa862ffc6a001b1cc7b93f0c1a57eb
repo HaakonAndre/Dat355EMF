@@ -1,7 +1,0 @@
-rule EClass2Table
-	transform t : IN!EPackage
-	to n : OUT!Schema {
-	
-	n.name = t.name;
-	}
-	

@@ -1,7 +1,0 @@
-rule EClass2Table
-	transform t : relational!EClass
-	to n : Table!Table {
-	
-	n.name = t.name;
-	}
-	

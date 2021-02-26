@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+/home/harn/eclipse-workspace/DSL/.metadata/.plugins/org.eclipse.jdt.core
+2791761949.index
+2123685343.index
+1106102608.index
+4002773195.index
+604751928.index
+3380086850.index
+3633957462.index
+3800847615.index
+845208926.index
+3276367843.index
+1125175363.index
+4211639691.index
+1558359320.index
+545673835.index
+1466002187.index
+2552590245.index
+1201225284.index
+1448606271.index
+1162351133.index
+3794497537.index
