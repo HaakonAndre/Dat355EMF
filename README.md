@@ -22,7 +22,7 @@ Put Input: (List, Set): S -> Add/remove element that are present/gone in Set and
 
 **Exercise 3a)** For all new objects in the changed A1 a corresponding object is added to A2, the same goes for removed objects in the changed A1. Changes made in A1 also restores A2 so it adheres to correctness. If no new objects are added or removed nothing happens, so hippocraticness is also accounted for.
 
-**Exercise 3b)** The forward transformation makes A2 correspond to A1, no matter if another transformation happened to A2 in advance. Any changes made in R->(A′1, A2)) does not matter. This happens in the composer example, any added objects are removed, and any removed objects added again.
+**Exercise 3b)** The forward transformation makes A2 correspond to A1, no matter if another transformation happened to A2 in advance. Any changes made in R->(A′1, A2)) does not matter. This does not happen in the composer example. firstName can be lost when removed.
 
 **Exercise 4a)** Z is just every set, does not tell us about the pairs. We can construct V from just the S, but need both V and S to construct S again.
 
